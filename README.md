@@ -16,7 +16,7 @@
 
  > ### Verificar mudanças feitas no projeto
 
-#### Informa  o estado das alterações do projeto
+#### Informa  o estado das alterações do projeto e mostrar todos que nao forem subido no git
 * git status
 
 ### verifica as mudanças feitas no projeto
@@ -59,5 +59,9 @@
 - git pull
 > ### clonar **projeto/repositorio**
 - git clone
+> ###  Configurar usario
+- git config --global user.name "nome"
+> ### configurar email
+- git config --global user.name "email"
 
 
