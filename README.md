@@ -84,4 +84,12 @@
 > ### ignorar um arquivo do projeto
 - .gitignore
 
+> ## Criando um repositorio remoto 
+- git init --bare
+
+> ### Gera um link sera copiado 
+
+> ### add repositorio local
+- git add local e o link copiado
+
 
