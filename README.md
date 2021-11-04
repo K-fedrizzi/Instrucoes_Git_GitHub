@@ -59,9 +59,29 @@
 - git pull
 > ### clonar **projeto/repositorio**
 - git clone
+
 > ###  Configurar usario
 - git config --global user.name "nome"
+
 > ### configurar email
 - git config --global user.name "email"
+
+> ### Para alterar algumas configurações de usuario, email etc
+- git config --local user.name "nome completo"
+
+> ### Para mostrar cada commit em uma unica linha
+- git log --oneline
+
+> ### Para ver as aletrações do commit
+- git log -p
+
+> ### para criar gitignore
+- Git add .gitignore
+
+> ### Dando commit ignorando 
+-  git commit -m "testte " .gitignore
+
+> ### ignorar um arquivo do projeto
+- .gitignore
 
 
