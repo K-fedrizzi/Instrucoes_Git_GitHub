@@ -98,5 +98,30 @@ _ git rebase nome
 > ## Mostra as pontes na linha do tempo especificas do desenvolvimento
 - git log --graph
 
+> ### Desfazendo uma modificação do arquivo
+- git chechout -- <nome do arquivo>
+ 
+ > ### Desfazendo um arquivo que ja foi adicionado
+ - git reset HEAD <nome do arquivo>
+ 
+ > ### Desfazendo um arquivo que ja foi adicionado e fez commit
+ - git revert <codigo hash do commit>
+ 
+ > ## Salva todas as alterações em um local temporario
+ - git stash
+ 
+  > ## Lista de tudo salvo 
+ - git stash list
+ 
+ > ## Pegar o que ta salvo no local temporario 
+ - git stash apply 0
+ 
+ > ## Tira o arquivo a ultima aleterada da stash
+ - git stash pop
+ 
+ 
+ 
+ 
+
 
 
