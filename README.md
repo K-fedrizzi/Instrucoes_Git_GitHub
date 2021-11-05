@@ -98,3 +98,5 @@ _ git rebase nome
 > ## Mostra as pontes na linha do tempo especificas do desenvolvimento
 - git log --graph
 
+
+
