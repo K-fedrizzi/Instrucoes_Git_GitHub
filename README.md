@@ -42,7 +42,7 @@
 > ### Adicionar novas funcionalidades no projeto
 
 #### Vai unir a linha do tempo
-- git merge 'nome branch'
+- git merge 'nome branch' 
 
 > ### Deletar branch da nova funcionalidade
 - git branch -D "nome Branch"(Sem as aspas)
@@ -92,4 +92,9 @@
 > ### add repositorio local
 - git add local e o link copiado
 
+> ## Pega os commit de uma branch  e faz uniao deles para a branch master
+_ git rebase nome
+
+> ## Mostra as pontes na linha do tempo especificas do desenvolvimento
+- git log --graph
 
